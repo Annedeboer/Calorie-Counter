@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:mode="oneLine" 
+       >
+  
+<TextView
+    android:id="@+id/date" 
+    style="@style/textSummary"
+    android:gravity="left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.7"
+/>
+
+<TextView
+    android:id="@+id/calories"
+    style="@style/textSummary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    
+/>
+
+<TextView
+    android:id="@+id/protien"
+    style="@style/textSummary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    
+/>
+</LinearLayout>

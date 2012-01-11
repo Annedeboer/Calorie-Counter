@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/ccbackgroundtitle">
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/textNutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textNutName" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/textNutGram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textNutGram"
+        android:inputType="numberDecimal" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/textNutCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textNutCal" android:inputType="numberDecimal">
+    </EditText>
+
+    <EditText
+        android:id="@+id/textNutProt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textNutProt" android:inputType="numberDecimal">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:weightSum="2">
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonBack"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonAddNutValues"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonAdd"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listAddedToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

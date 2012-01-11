@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/textTitle"
+        android:layout_height="wrap_content"
+        android:text="@string/textTitle" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:background="@drawable/ccbackground2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <Button
+            android:id="@+id/buttonAdd"
+            style="@style/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonAdd" />
+
+        <Button
+            android:id="@+id/buttonOverview"
+            style="@style/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonOverview" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccbackgroundtitle" >
+
+        <TextView
+            android:id="@+id/textSummaryCal"
+            style="@style/textSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center"
+            android:text="@string/textSummaryCal" />
+
+        <TextView
+            android:id="@+id/numberSummaryCal"
+            style="@style/textSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="@string/testNumber" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccbackgroundtitle"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/textSummaryProt"
+            style="@style/textSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center"
+            android:text="@string/textSummaryProt" />
+
+        <TextView
+            android:id="@+id/numberSummaryProt"
+            style="@style/textSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="@string/testNumber" />
+    </LinearLayout>
+
+</LinearLayout>

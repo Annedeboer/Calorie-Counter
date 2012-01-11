@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CalorieCounterMainActivity!</string>
+    <string name="app_name">CalorieCounter</string>
+    <string name="textTitle">Calorie counter</string>
+    <string name="buttonAdd">Toevoegen</string>
+    <string name="buttonOverview">Geschiedenis</string>
+    <string name="textSummaryCal">&quot;Kcal vandaag: &quot;</string>
+    <string name="textSummaryProt">Eiwitten vandaag:</string>
+    <string name="testNumber">1234</string>
+    <string name="textNutName">Name of food</string>
+    <string name="textNutGram">Amount in grams</string>
+    <string name="textNutCal">Amount of Cal per 100gram</string>
+    <string name="textNutProt">Amount of protien per 100g</string>
+    <string name="buttonBack">Terug</string>
+    <string name="textTitleOverview">Overzicht per datum:</string>
+    <string name="textColumns">Datum \    \    \    \    \    \    \    \   \    \    \    \    \    \    \  \  \  \  \ Kcal  \    \  \    \ Eiwitten</string>
+
+    
+
+
+    
+
+
+</resources>
